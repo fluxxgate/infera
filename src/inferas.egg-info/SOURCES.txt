@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/inferas/__init__.py
+src/inferas/__main__.py
+src/inferas/re.py
+src/inferas/web.py
+src/inferas.egg-info/PKG-INFO
+src/inferas.egg-info/SOURCES.txt
+src/inferas.egg-info/dependency_links.txt
+src/inferas.egg-info/top_level.txt

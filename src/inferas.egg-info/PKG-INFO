@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: inferas
+Version: 0.0.1
+Summary: Runtime helper to keep an application's runtime consistent: install packages, run modules, and track version/build metadata.
+Home-page: https://github.com/fluxxgate/inferas
+Author: Your Name
+Author-email: your.email@example.com
+License: MIT
+Project-URL: Homepage, https://example.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: home-page
+Dynamic: license-file
+
+# inferas
+
+inferas is a small runtime helper to:
+- install Python packages for an application
+- run a module via `python -m <module>`
+- maintain a small JSON metadata file (version + build)
+
+Install (editable) and use:
+$ python -m pip install -e .
+$ inferas --install requests numpy --run my_app.main
+
+
+# note
+
+Everything was developed on a chromebook this module was not tested once so be cautious.
